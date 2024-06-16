@@ -1,0 +1,56 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios de build
+dist/
+build/
+coverage/
+.tmp/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Teste de saída
+/coverage
+/lcov-report
+.scannerwork
+coverage.out
+
+# Arquivos temporários
+*.swp
+*.bak
+*.tmp
+
+# Arquivos de lock de pacotes
+package-lock.json
+yarn.lock
+
+# Diretório do servidor estático
+public/
